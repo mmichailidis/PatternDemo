@@ -14,5 +14,8 @@ public class Application {
 
         StoryTeller ponyStory = new StoryTeller(ponyFactory);
         ponyStory.tellMeAStory();
+
+        StoryTellerWithMethodFactory methodFactory = new StoryTellerWithMethodFactory();
+        methodFactory.tellMeAStory();
     }
 }
